@@ -1,0 +1,21 @@
+{
+  "name": "kafkaLibPoc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev-serviceA":"nodemon src/app/serviceA",
+    "dev-serviceB":"nodemon src/app/serviceB",
+    "start-serviceA":"node src/app/serviceA",
+    "start-serviceB":"node src/app/serviceB"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.23.1",
+    "kafka-node": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
